@@ -1,0 +1,61 @@
+.indbox-toplavel-wrapper .indbox-pro-module-wrapper {
+  background-color: #fff4e5;
+  border: 1px solid #ffd2a6;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #443a96;
+  padding: 20px;
+  padding-bottom: 30px;
+  -webkit-box-shadow: 0px 0px 20px 1px #0000001a;
+  box-shadow: 0px 0px 20px 1px #0000001a;
+  max-width: 1100px !important;
+  margin-bottom: 20px;
+}
+
+.indbox-toplavel-wrapper .indbox-pro-module-wrapper h2 {
+  font-size: 28px;
+  color: #ff6f00;
+  line-height: 38px;
+  margin-bottom: 10px;
+}
+
+.indbox-toplavel-wrapper .indbox-pro-module-wrapper p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #443a96;
+}
+
+.indbox-toplavel-wrapper .indbox-pro-module-wrapper a {
+  font-size: 18px;
+  color: #fff;
+  background-color: #ff6f00;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  -webkit-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.indbox-toplavel-wrapper .indbox-pro-module-wrapper a:hover {
+  background-color: #e65c00;
+}
+
+
+.indbox-toplavel-wrapper .indbox-warning-message {
+  text-align: center;
+  color: #333;
+  background-color: #ffebcc;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  max-width: 600px;
+  margin: 10px auto;
+}

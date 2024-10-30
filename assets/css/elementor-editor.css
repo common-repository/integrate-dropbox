@@ -1,0 +1,55 @@
+.elementor-element .icon .indbox-browser:before,
+.elementor-element .icon .indbox-download:before,
+.elementor-element .icon .indbox-embed:before,
+.elementor-element .icon .indbox-gallery:before,
+.elementor-element .icon .indbox-media:before,
+.elementor-element .icon .indbox-search:before,
+.elementor-element .icon .indbox-shortcodes:before,
+.elementor-element .icon .indbox-slider:before,
+.elementor-element .icon .indbox-uploader:before,
+.elementor-element .icon .indbox-view:before,
+.elementor-element .icon .indbox-media-player:before {
+  content: "";
+  height: 30px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.elementor-element .icon .indbox-browser:before {
+  background-image: url(../images/shortcode-builder/types/browser.svg);
+}
+.elementor-element .icon .indbox-uploader:before {
+  background-image: url(../images/shortcode-builder/types/uploader.svg);
+}
+.elementor-element .icon .indbox-gallery:before {
+  background-image: url(../images/shortcode-builder/types/gallery.svg);
+}
+.elementor-element .icon .indbox-media:before {
+  background-image: url(../images/shortcode-builder/types/media.svg);
+}
+.elementor-element .icon .indbox-search:before {
+  background-image: url(../images/shortcode-builder/types/search.svg);
+}
+.elementor-element .icon .indbox-embed:before {
+  background-image: url(../images/shortcode-builder/types/embed.svg);
+}
+.elementor-element .icon .indbox-view:before {
+  background-image: url(../images/shortcode-builder/types/view.svg);
+}
+.elementor-element .icon .indbox-download:before {
+  background-image: url(../images/shortcode-builder/types/download.svg);
+}
+.elementor-element .icon .indbox-shortcodes:before {
+  background-image: url(../images/shortcode-builder/types/shortcodes.svg);
+}
+.elementor-element .icon .indbox-slider:before {
+  background-image: url(../images/shortcode-builder/types/slider.svg);
+}
+.elementor-element .icon .indbox-media-player:before {
+  background-image: url(../images/shortcode-builder/types/media.svg);
+}
+
+.elementor-button.go-pro.dialog-button.dialog-action.indbox-dialog-action {
+  background-color: var(--color-primary, #2563eb);
+}

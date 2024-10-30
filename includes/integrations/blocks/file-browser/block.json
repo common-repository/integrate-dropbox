@@ -1,0 +1,98 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "integrate-dropbox/file-browser",
+  "version": "0.1.0",
+  "title": "File Browser",
+  "category": "integrate-dropbox",
+  "icon": "grid-view",
+  "description": "Insert a file browser to browse specific Dropbox files and folders",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "open": {
+      "type": "boolean",
+      "default": false
+    },
+    "isTrue": {
+      "type": "boolean",
+      "default": false
+    },
+    "editData": {
+      "type": "object",
+      "default": {
+        "status": "on",
+        "type": "File Browser",
+        "allFolders": false,
+        "folders": [],
+        "privateFolders": false,
+        "allowExtensions": null,
+        "allowAllExtensions": false,
+        "allowExceptExtensions": null,
+        "allowNames": null,
+        "allowAllNames": false,
+        "allowExceptNames": null,
+        "nameFilterOptions": [],
+        "showFiles": true,
+        "showFolders": true,
+        "fileNumbers": "",
+        "embedWidth": "100%",
+        "embedHeight": "480px",
+        "embedIframeWidth": "100%",
+        "embedIframeHeight": "480px",
+        "showFileName": false,
+        "sort": {
+          "sortBy": "Name",
+          "sortDirection": "asc"
+        },
+        "view": "list",
+        "layout": "Grid",
+        "screenSize": "Desktop",
+        "lazyLoad": true,
+        "lazyloadnumber": 100,
+        "maxFileUpload": null,
+        "maxFileSize": "",
+        "minFileSize": "",
+        "enableFolderUpload": false,
+        "openNewTab": true,
+        "showUploadLabel": true,
+        "uploadLabelText": "Upload Files",
+        "allowEmbedPopout": true,
+        "thumbnailCaption": true,
+        "preview": true,
+        "download": true,
+        "displayFor": "everyone",
+        "displayUsers": [
+          "everyone"
+        ],
+        "displayEveryone": false,
+        "displayExcept": [],
+        "sliderPerPage": 4,
+        "slideScreenSize": "",
+        "slideGap": "",
+        "rowheight": 200,
+        "imgmargin": 10,
+        "allowFileUploadUserRole": [
+          {
+            "value": "everyone",
+            "label": "Everyone"
+          }
+        ],
+        "accessDeniedMessage": null,
+        "uploadConfirmationMessage": null,
+        "isShowUploadLabelText": false,
+        "thumbnailView": "Rounded",
+        "folderView": "Title",
+        "browserHeader": true,
+        "breadCrumbsInHeader": true,
+        "whoCanViewModule": "Everyone"
+      }
+    }
+  },
+  "textdomain": "integrate-dropbox",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

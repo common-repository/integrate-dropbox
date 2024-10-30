@@ -1,0 +1,115 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "integrate-dropbox/slider-carousel",
+  "version": "0.1.0",
+  "title": "Slider Carousel",
+  "category": "integrate-dropbox",
+  "icon": "grid-view",
+  "description": "Create a slideshow of images or videos from your Dropbox",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "open": {
+      "type": "boolean",
+      "default": false
+    },
+    "isTrue": {
+      "type": "boolean",
+      "default": false
+    },
+    "editData": {
+      "type": "object",
+      "default": {
+        "status": "on",
+        "title": "Shortcode Title",
+        "type": "Slider Carousel",
+        "allFolders": false,
+        "folders": [],
+        "privateFolders": false,
+        "allowExtensions": null,
+        "allowAllExtensions": false,
+        "allowExceptExtensions": null,
+        "allowNames": null,
+        "allowAllNames": false,
+        "allowExceptNames": null,
+        "nameFilterOptions": [],
+        "showFiles": true,
+        "showFolders": true,
+        "fileNumbers": "",
+        "width": "100%",
+        "height": "auto",
+        "embedIframeWidth": "100%",
+        "embedIframeHeight": "480px",
+        "showFileName": false,
+        "sort": {
+          "sortBy": "Name",
+          "sortDirection": "asc"
+        },
+        "view": "list",
+        "layout": "Justified",
+        "screenSize": "Desktop",
+        "lazyLoad": true,
+        "lazyloadnumber": 100,
+        "maxFileUpload": null,
+        "maxFileSize": "",
+        "minFileSize": "",
+        "allowUserFileDownload": true,
+        "enableFolderUpload": false,
+        "openNewTab": true,
+        "showUploadLabel": true,
+        "uploadLabelText": "Upload Files",
+        "allowEmbedPopout": true,
+        "thumbnailCaption": true,
+        "preview": true,
+        "download": true,
+        "displayFor": "everyone",
+        "displayUsers": [
+          "everyone"
+        ],
+        "displayEveryone": false,
+        "displayExcept": [],
+        "slideHeight": "360px",
+        "sliderPerPage": 4,
+        "slideScreenSize": "Large Desktop",
+        "slidegap": 15,
+        "slideloop": true,
+        "SlideAutoplay": false,
+        "slideAutoplaySpeed": 3000,
+        "slideDotsNavigation": false,
+        "slideArrowsNavigation": true,
+        "large_desktop_sliderperpage": 5,
+        "desktop_sliderperpage": 4,
+        "laptop_sliderperpage": 3,
+        "tablet_sliderperpage": 2,
+        "mobile_sliderperpage": 1,
+        "rowheight": 200,
+        "imgmargin": 10,
+        "mobilecolumn": 2,
+        "tabletcolumn": 3,
+        "desktopcolumn": 4,
+        "aspectRatio": null,
+        "allowFileUploadUserRole": [
+          {
+            "value": "everyone",
+            "label": "Everyone"
+          }
+        ],
+        "accessDeniedMessage": null,
+        "uploadConfirmationMessage": null,
+        "isShowUploadLabelText": false,
+        "thumbnailView": "Rounded",
+        "folderView": "Title",
+        "browserHeader": true,
+        "breadCrumbsInHeader": true,
+        "whoCanViewModule": "Everyone"
+      }
+    }
+  },
+  "textdomain": "integrate-dropbox",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
